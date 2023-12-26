@@ -1,0 +1,78 @@
+/* this is external css */
+/* combining this selector to select the multiple tag by using comma separated by the html tag, and the code inside it apply for all selected selector tag */
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+}
+
+/* Six (6) styling text property 1)font-size 2)font-family 3)text-transform 4)font-style 5)text-align 6)line-height */
+h1 {
+  font-size: 26px; /*(1)font-size property is used to change the size of the text(font)*/
+  /* font-family: sans-serif; (2) font-family property is used to change the font of the text */
+  text-transform: uppercase; /*(3)text-transform property is used to transform the text as for example from lower case to upper case,etc.*/
+  font-style: italic; /*(4)font-style property is used to change the style of the text like italic*/
+}
+
+h2 {
+  font-size: 40px;
+  /* font-family: sans-serif; */
+}
+
+h3 {
+  font-size: 30px;
+  /* font-family: sans-serif; */
+}
+
+h4 {
+  font-size: 20px;
+  /* font-family: sans-serif; */
+  text-transform: uppercase;
+  text-align: center; /*(5) text-align property is used to align the text*/
+}
+
+p {
+  font-size: 22px;
+  /* font-family: sans-serif; */
+  line-height: 1.5; /*(6) line-height property is used to make gap between the lines by default it is 1 and here we set 1.5 (it means that the line is 1.5 times the font-size)*/
+}
+
+li {
+  font-size: 20px;
+  /* font-family: sans-serif; */
+}
+
+/* second method which is descendant selector */
+
+/* footer p {
+  font-size: 16px;
+} */
+
+/*# is used for id selector (id is unique throughout the whole code) */
+
+#copyright {
+  font-size: 16px;
+}
+
+/* article header p {
+  font-style: italic;
+} */
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+/* . is used to select the class selector (class can or can not be unique it has multiple class name ) */
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold; /* font-weight property is used to set the boldness of the font(text) as example bold,lighter,etc */
+}
+
+.related {
+  list-style: none; /* list-style is used to make change in the bullet points. as for example change to none or circle,etc.*/
+}
